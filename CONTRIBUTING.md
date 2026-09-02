@@ -128,7 +128,7 @@ Depois, abra o Pull Request no GitHub.
 
 **Não tenha medo de perguntar.** Git pode parecer complicado no começo.
 
-Se aparecer um erro ou você não souber qual comando utilizar, pare e peça ajuda antes de executar comandos que possam apagar ou sobrescrever trabalho de outras pessoas.
+Se aparecer um erro ou você não souber qual comando utilizar,peça ajuda antes de executar comandos que possam apagar ou sobrescrever trabalho de outras pessoas.
 
 Comandos como `git reset --hard`, `git push --force` e exclusões de branches não devem ser utilizados sem orientação de alguém do grupo que saiba exatamente o que está fazendo.
 
@@ -137,13 +137,6 @@ Comandos como `git reset --hard`, `git push --force` e exclusões de branches n�
 O projeto é coletivo. Portanto:
 
 - Não altere o trabalho de outra pessoa sem conversar com ela.
-- Revise PRs com respeito e foco no projeto.
+- Revise PRs com respeito.
 - Comentários devem explicar o problema e, quando possível, sugerir uma solução.
 - Se houver conflito entre alterações, conversem antes de resolver.
-- O objetivo da revisão é melhorar o projeto, não avaliar a pessoa.
-
-## 9. Regra de ouro
-
-> **Branch para trabalhar, commit para registrar, Pull Request para revisar e `main` para manter o projeto funcionando.**
-
-Em caso de dúvida, peça ajuda. É melhor perguntar do que perder o trabalho de alguém.
