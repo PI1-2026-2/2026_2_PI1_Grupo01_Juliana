@@ -1,8 +1,8 @@
 # Termo de Abertura do Projeto
 
 - **Nome do Projeto:**
-- **Data de Início:**
-- **Data de Término:**
+- **Data de Início: 02/09/2026**
+- **Data de Término: 12/12/2026**
 
 ## Visão Geral do Projeto
 
