@@ -6,6 +6,9 @@ Esse é o _template_ de repositório para ser utilizado pelos grupos de PI1 para
 
 A organização e a correta utilização do repositório do projeto serão considerados na avaliação do grupo. Dessa forma, recomenda-se que *todos os membros* do grupo leiam as instruções deste repositório, aprendam a a utilizar o `git` (caso ainda não saibam) e também que o grupo combine uma estratégia de como irão utilizar o repositório em conjunto. Dessa forma não deixem de utilizar todas as ferramentas que o GitHub oferece, incluindo _branches_, PRs, revisões, _issues_, calendários, dentre outros.
 
+> [!IMPORTANT]
+> O fluxo de branches, commits e Pull Requests do grupo está documentado em [CONTRIBUTING.md](CONTRIBUTING.md). Leia antes de começar a contribuir.
+
 Lembrem sempre de evitar enviar arquivos muito grandes (>5MB). No caso de vídeos e outros arquivos pesados que são necessários, armazenar o arquivo em outra plataforma e colocar aqui apenas o _link_.
 
 > [!IMPORTANT]
