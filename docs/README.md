@@ -76,7 +76,7 @@ Passos práticos:
 2. Faça commit na sua branch e abra PR (fluxo do [CONTRIBUTING.md](../CONTRIBUTING.md)).
 3. Após o merge na `main`, a Action `ci` roda sozinha: instala o MkDocs, gera o site e publica na `gh-pages`.
 4. Confira em **Actions** no GitHub se o workflow passou.
-5. No repositório: **Settings → Pages → Build and deployment → Source** deve estar em **Deploy from a branch**, branch **`gh-pages`** / pasta **`/` (root)**.
+5. No repositório: **Settings → Pages → Build and deployment → Source** deve estar em **Deploy from a branch**, branch **`gh-pages`** / pasta **`/` (root)** — **não** use a pasta `/docs` (isso ativa o Jekyll e quebra o site do MkDocs).
 
 URL esperada: https://pi1-2026-2.github.io/2026_2_PI1_Grupo01_Juliana/
 
