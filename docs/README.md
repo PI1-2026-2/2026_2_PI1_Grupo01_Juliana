@@ -54,10 +54,37 @@ docs/
   figs/             # figuras e imagens
 ```
 
+### Deploy (local → GitHub Pages)
+
+O que você vê com `mkdocs serve` **não** publica sozinho. O site público é gerado pela GitHub Action quando o conteúdo chega na `main`.
+
+Fluxo:
+
+```text
+editar docs/ → mkdocs serve (validar local)
+       ↓
+branch + PR → merge em main
+       ↓
+GitHub Actions (.github/workflows/ci.yml)
+       ↓
+mkdocs gh-deploy → branch gh-pages → GitHub Pages
+```
+
+Passos práticos:
+
+1. Edite os `.md` em `docs/` e confira com `mkdocs serve`.
+2. Faça commit na sua branch e abra PR (fluxo do [CONTRIBUTING.md](../CONTRIBUTING.md)).
+3. Após o merge na `main`, a Action `ci` roda sozinha: instala o MkDocs, gera o site e publica na `gh-pages`.
+4. Confira em **Actions** no GitHub se o workflow passou.
+5. No repositório: **Settings → Pages → Build and deployment → Source** deve estar em **Deploy from a branch**, branch **`gh-pages`** / pasta **`/` (root)**.
+
+URL esperada: https://pi1-2026-2.github.io/2026_2_PI1_Grupo01_Juliana/
+
+Não edite a branch `gh-pages` manualmente — ela é sobrescrita pelo deploy.
+
 ### Dicas
 
 - Edite ou adicione arquivos `.md` em `docs/` e veja o resultado com `mkdocs serve`.
 - Ajuste título, tema e navegação em `mkdocs.yml`.
-- A publicação no GitHub Pages (branch `gh-pages`) é automatizada por GitHub Actions a cada merge na `main` — não edite `gh-pages` manualmente. Detalhes em [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 Documentação oficial: [mkdocs.org](https://www.mkdocs.org/) · [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
